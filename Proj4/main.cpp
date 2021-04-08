@@ -1,14 +1,34 @@
 #include <iostream>
 #include "BasicShape.h"
+#include <vector>
 
 
 using namespace std;
 
 int main() {
 
-	
+	vector<BasicShape*> myVector;
+
+	for (double i = 0; i < 10; i++)
+	{
+		int random;
+		random = rand() % 10;
+		BasicShape* basicPtr= new Rectangle(random, random);
+		BasicShape* basicPtr2 = new Circle(random);
+
+		myVector.push_back(basicPtr);
+		myVector.push_back(basicPtr2);
+	}
+
+	int size = myVector.size();
+	for (int i = 0; i < size; i++) {
+
+		myVector[i]->whatAmI();
+		myVector[i]->getArea();
 
 
+		delete myVector[i];
+	}
 
 
 	/*In the main file, you should dynamically create the instances of the Rectanglesand Circles, storing pointers to

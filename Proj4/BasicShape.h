@@ -25,7 +25,7 @@ public:
 
 	void setRadius(double radius);
 
-	double getCircunference(Circle circle);
+	double getCircunference();
 
 	void whatAml() override;
 

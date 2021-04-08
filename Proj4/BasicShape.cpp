@@ -1,6 +1,7 @@
 #include "BasicShape.h"
 #include <typeinfo>
 #include <iostream>
+#include <cmath>
 
 void BasicShape::whatAml()
 {}
@@ -30,17 +31,17 @@ void Circle::whatAml()
 	std::cout << "It is a Circle" << std::endl;
 }
 
-double Circle::getCircunference(Circle circle)
+double Circle::getCircunference()
 {
-	// 2 pi R
-	return 0.0;
+	const double PI = std::atan(1.0) * 4;
+	return 2*radius*PI;
 }
 
 double Circle::getArea() 
 {
+	const double PI = std::atan(1.0) * 4;
+	return PI*pow(radius,2);
 
-	return 0.0;
-//return pi * radius pow 2 
 }
 
 Rectangle::Rectangle(double lenght, double width)
