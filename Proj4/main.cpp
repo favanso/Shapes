@@ -1,5 +1,7 @@
 #include <iostream>
 #include "BasicShape.h"
+#include "Circle.h"
+#include "Rectangle.h"
 #include <vector>
 
 

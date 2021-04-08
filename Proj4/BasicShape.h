@@ -13,49 +13,5 @@ protected:
 
 };
 
-class Circle : public BasicShape
-{
-private:
-	double radius;
-
-public:
-	Circle(double radius);
-
-	double getRadius();
-
-	void setRadius(double radius);
-
-	double getCircunference();
-
-	void whatAml() override;
-
-	double getArea() override;
-
-};
-
-class Rectangle : public BasicShape
-{
-private:
-	double lenght;
-	double width;
-
-public:
-	Rectangle(double lenght, double width);
-
-	double getLenght();
-
-	double getWidth();
-
-	void setLenght(double lenght);
-
-	void setWidth(double width);
-
-	double getPerimeter();
-
-	void whatAml() override;
-
-	double getArea() override;
-
-};
 
 #endif 
