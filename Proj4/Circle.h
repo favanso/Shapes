@@ -17,9 +17,9 @@ public:
 
 	double getCircunference();
 
-	void whatAml() override;
+	virtual void whatAml() override;
 
-	double getArea() override;
+	virtual double getArea() override;
 
 };
 

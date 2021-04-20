@@ -4,8 +4,10 @@
 
 class BasicShape
 {
+private:
+	double area;
  
-protected:
+public:
 
 	virtual void whatAml();
 

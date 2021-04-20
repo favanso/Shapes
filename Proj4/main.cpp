@@ -29,8 +29,10 @@ int main() {
 
 	for (int i = 0; i < size; i++) {
 		
-		myVector[i]->getArea();
-		myVector[i]->whatAmI();
+		
+		cout << myVector[i]->getArea() << endl;
+		myVector[i]->whatAml();
+		
 
 
 		delete myVector[i];

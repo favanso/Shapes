@@ -22,9 +22,9 @@ public:
 
 	double getPerimeter();
 
-	void whatAml() override;
+	virtual void whatAml() override;
 
-	double getArea() override;
+	virtual double getArea() override;
 
 };
 

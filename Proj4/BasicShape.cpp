@@ -8,7 +8,7 @@ void BasicShape::whatAml()
 
 double BasicShape::getArea()
 {
-	return 0.0;
+	return area = 0.0;
 }
 
 
