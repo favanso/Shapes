@@ -24,14 +24,14 @@ int main() {
 
 	int size = myVector.size();
 
-	/*cout << size << endl;
+	/*cout << size << endl
+	* 
 	cout << myVector.at(1) << endl;*/
 
 	for (int i = 0; i < size; i++) {
 		
-		
-		cout << myVector[i]->getArea() << endl;
-		myVector[i]->whatAml();
+	
+		cout << "The "  << myVector[i]->whatAml()<< " "<< i+1 << " has area of: " << myVector[i]->getArea() << endl;
 		
 
 

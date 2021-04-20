@@ -9,7 +9,7 @@ private:
  
 public:
 
-	virtual void whatAml();
+	virtual std::string whatAml();
 
 	virtual double getArea();
 

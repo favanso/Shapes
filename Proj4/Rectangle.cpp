@@ -34,9 +34,9 @@ double Rectangle::getPerimeter()
 	return 2 * lenght + 2 * width;
 }
 
-void Rectangle::whatAml()
+std::string Rectangle::whatAml()
 {
-	std::cout << "It is a Rectangle" << std::endl;
+	return "Rectangle";
 }
 
 double Rectangle::getArea()

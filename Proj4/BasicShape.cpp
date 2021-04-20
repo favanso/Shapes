@@ -3,8 +3,10 @@
 #include <iostream>
 #include <cmath>
 
-void BasicShape::whatAml()
-{}
+std::string BasicShape::whatAml()
+{
+	return "";
+}
 
 double BasicShape::getArea()
 {

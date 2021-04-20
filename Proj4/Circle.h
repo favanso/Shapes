@@ -17,7 +17,7 @@ public:
 
 	double getCircunference();
 
-	virtual void whatAml() override;
+	virtual std::string whatAml() override;
 
 	virtual double getArea() override;
 

@@ -18,9 +18,9 @@ void Circle::setRadius(double radius)
 	this->radius = radius;
 }
 
-void Circle::whatAml()
+std::string Circle::whatAml()
 {
-	std::cout << "It is a Circle" << std::endl;
+	return "Circle";
 }
 
 double Circle::getCircunference()
